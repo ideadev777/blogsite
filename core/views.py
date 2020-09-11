@@ -53,7 +53,7 @@ def index(request):
 #        for page in range(1,5):
 #            print( str(cur.id) + ' ' + str(page) )
 #            GetAnsweredLink(cur,page)
-
+    return HttpResponse("Tom")
     template = loader.get_template('index.html')
     curLangCode = GetCurrentLanguageCode(request)
     context = {
