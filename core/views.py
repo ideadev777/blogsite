@@ -16,7 +16,7 @@ from django.contrib.auth.models import User
 # Custom modules
 from .scrape import GetCategory, GetAnsweredLink, ToSlug, TempAction
 from .models import Category, Forum, Article, TranslatedArticle, Language
-from .translate import TranslateArticle
+#from .translate import TranslateArticle
 from .utils import GetCurrentLanguageCode
 
 # Create your views here.
